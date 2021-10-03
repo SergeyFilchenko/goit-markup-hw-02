@@ -3,9 +3,11 @@
 --secondary-text-color:#757575;
 --white-color: #FFFFFF;
 --background-color:#2196F3;
+--background2-color: #2F303A;
+--background3-color:#F5F4FA;
 }
 body{
-font-family: 'Raleway', sans-serif;
+
 font-family: 'Roboto', sans-serif;
 }
 ul{
@@ -35,6 +37,9 @@ color: var(--background-color);
 .studia{
     color: black;
 }
+.current {
+    color: #2196F3;
+}
 .navigate:focus, .navigate:hover{
 color: var(--background-color);
 }
@@ -43,12 +48,13 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
-color: var(--pimary-text-color);
+
 }
 .contacts:focus, .contacts:hover{
 color: var(--background-color);
 }
 .contacts{
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
@@ -64,7 +70,7 @@ width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-background: #2F303A;
+background: var(--background2-color);
 }
 .hero-text{
 padding-top: 200px;
@@ -77,6 +83,9 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-color);
+}
+.hero-button:focus, .hero-button:hover{
+    background: #188CE8;
 }
 .hero-button{
 margin-top: 30px;
@@ -131,7 +140,7 @@ color: var(--pimary-text-color);
 .team-section{
 width: 1600px;
 height: 648px;
-background: #F5F4FA;
+background:var(--background3-color);
 }
 .participants{
 font-weight: 500;
@@ -157,18 +166,22 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-background: #2F303A;
+background: var(--background2-color);
 }
 .studio{
 color: var(--white-color);
 }
 .adress{
+font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--white-color);
 }
 
+.color{
+    color: rgba(255, 255, 255, 0.6);
+}
 /* Портфолио */
 
 .portfoio-filter{
@@ -180,16 +193,15 @@ color: var(--white-color);
     background: var(--background-color);
 }
 .portfolio-button{
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--pimary-text-color);
-
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--pimary-text-color);
 cursor: pointer;
 width: 145px;
 height: 38px;
-background: #F5F4FA;
+background: var(--background3-color);
 border-radius: 4px;
 }
 .portfolio-heading{
