@@ -19,7 +19,9 @@ margin: 0;
 li{
 list-style-type: none;  
 }
-a{text-decoration: none;}
+a{text-decoration: none;
+font-style: normal;
+}
 h2{margin: 0;}
 h3{margin: 0;}
 
@@ -27,7 +29,6 @@ h3{margin: 0;}
 
 .web{
 font-family: Raleway;
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.7;
@@ -54,7 +55,6 @@ letter-spacing: 0.02em;
 color: var(--background-color);
 }
 .contacts{
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
